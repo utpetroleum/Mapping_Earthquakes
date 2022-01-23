@@ -219,8 +219,7 @@ let myStyle = {
 
 // Accessing the tectonic plates GeoJSON URL
 // let url = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json";
-// let url = "static/data/PB2002_boundaries.json";
-let url = "Earthquake_Challenge/static/data/PB2002_boundaries.json";
+let url = "static/data/PB2002_boundaries.json";
 
   // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
   d3.json(url).then(function(data) {
